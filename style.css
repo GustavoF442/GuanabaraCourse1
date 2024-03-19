@@ -1,4 +1,13 @@
 
+@media (max-width: 768px) {
+    .FotoLegenda figcaption p {
+      position: static;
+      transform: none;
+      margin: 0 auto;
+      text-align: center; 
+    }
+}
+
 body{
     background-color: hsla(168, 81%, 93%, 0.5);
 }
@@ -6,5 +15,43 @@ p {
     hyphens: 2;
     text-indent: 50px;
     text-align: justify;
-  }
-  
+}
+
+/* Formatação de Imagens com Legendas */
+figure.FotoLegenda {
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+    position: relative;
+}
+.FotoLegenda img{
+    width: 100%;
+    height: 100%;
+}
+
+
+figure.FotoLegenda figcaption{
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.400);
+    width: 100%;
+    height: 100%;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure.FotoLegenda:hover figcaption {
+    opacity: 1;
+}
+
+figure.FotoLegenda figcaption p {
+    position: absolute;
+    transform: translate(-50%, -50%); /* tcharaaaaaannnnn */
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    padding: 1rem;
+}
