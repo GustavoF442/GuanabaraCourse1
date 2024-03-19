@@ -1,5 +1,10 @@
+
+body{
+    background-color: hsla(168, 81%, 93%, 0.5);
+}
 p {
     hyphens: 2;
     text-indent: 50px;
+    text-align: justify;
   }
   
