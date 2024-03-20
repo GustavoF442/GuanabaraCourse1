@@ -132,3 +132,42 @@ nav#menu a:hover {
     color: white;
     transition: background-color 1s;
 }
+
+/* section corpo  */
+
+section#corpo {
+    width: 500px;
+    display: block;
+    float: left;
+    padding: 15px;
+    border-right: 1px solid #000000;
+}
+
+table#tabela {
+    border: 1px solid black;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tabela td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+aside#lateral {
+    width: 300px;
+    display: block;
+    float: right;
+    padding: 15px;
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid black;
+}
+
+footer#rodape p {
+    text-align: center;
+}
+
