@@ -25,9 +25,8 @@ p {
 }
 
 header#cabecalho img#icone{
-    position: absolute;
-    left: 1000px;
-    top: 30px;
+    float: right;
+    position: relative;
 }
 
 header#cabecalho {
@@ -102,9 +101,9 @@ nav#menu {
 nav#menu ul {
     list-style: none;
     text-transform: uppercase;
-    position: absolute;
-    top: 0px;
-    left: 300px;
+    display: flex;
+    justify-content: right;
+    margin-top: -80px;
 }
 
 nav#menu li {
