@@ -8,6 +8,7 @@
 body{
     background-color: #888888;
     width: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .interface{
@@ -22,6 +23,10 @@ p {
     hyphens: 2;
     text-indent: 50px;
     text-align: justify;
+}
+
+a {
+    color: #606060;
 }
 
 header#cabecalho img#icone{
@@ -76,6 +81,18 @@ figure.FotoLegenda figcaption{
     padding: 10px;
     box-sizing: border-box;
     transition: opacity 1s;
+}
+
+figure.FotoLegenda figcaption p{
+    display: flex;
+    align-items: center;
+
+    width: 300px;
+    height: 300px;
+    vertical-align: middle;
+    margin-top: -5px;
+    font-size: 15px;
+    x;
 }
 
 figure.FotoLegenda:hover figcaption {
@@ -212,7 +229,23 @@ aside#lateral {
     width: 300px;
     display: block;
     float: right;
-    padding: 15px;
+    padding: 30px;
+    background-color: #9f9f9f;
+    margin-top: -23px;
+}
+
+aside#lateral h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: #606060;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+aside#lateral h2 {
+    font-size: 20px;
 }
 
 footer#rodape {
