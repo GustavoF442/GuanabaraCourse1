@@ -228,14 +228,9 @@ table#tabela span {
     
 }
 
-section#lateral {
-    background-color: red;
-    width: 900px;
-}
-
 aside#lateral {
     width: 300px;
-    display: block;
+    display: inline;
     float: right;
     padding: 30px;
     background-color: #9f9f9f;
