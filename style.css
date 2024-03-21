@@ -34,6 +34,12 @@ header#cabecalho img#icone{
     position: relative;
 }
 
+.foto-trocada {
+    float: right;
+    position: relative;
+    z-index: 2;
+}
+
 header#cabecalho {
     border-bottom: 1px #606060 solid;
     height: 130px;
@@ -68,7 +74,6 @@ figure.FotoLegenda {
     width: 100%;
     height: 100%;
 }
-
 
 figure.FotoLegenda figcaption{
     opacity: 0;
@@ -223,6 +228,10 @@ table#tabela span {
     
 }
 
+section#lateral {
+    background-color: red;
+    width: 900px;
+}
 
 aside#lateral {
     width: 300px;
